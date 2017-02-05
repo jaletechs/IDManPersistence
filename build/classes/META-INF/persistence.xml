@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="IDManPersistence">
+		<class>com.pairprogramming.entities.CollectionReason</class>
+		<class>com.pairprogramming.entities.Department</class>
+		<class>com.pairprogramming.entities.Lga</class>
+		<class>com.pairprogramming.entities.LgaPK</class>
+		<class>com.pairprogramming.entities.Role</class>
+		<class>com.pairprogramming.entities.State</class>
+		<class>com.pairprogramming.entities.Student</class>
+		<class>com.pairprogramming.entities.User</class>
+		<class>com.pairprogramming.entities.UserRole</class>
+		<class>com.pairprogramming.entities.UserRolePK</class>
+	</persistence-unit>
+</persistence>
